@@ -1,4 +1,4 @@
-# ⚡ Strike Clone — Enhanced
+# ⚡ StrikeAPrice Clone
 
 An enhanced Angular-based clone project showcasing a modern, responsive, and scalable front-end design.  
 This project demonstrates Angular component-based architecture, reusable UI elements, and modular structure.
