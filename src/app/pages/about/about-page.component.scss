@@ -1,0 +1,12 @@
+.about-page{}
+.about-section{margin:26px 0}
+.about-section h2{margin:0 0 8px}
+.about-section h3{margin:16px 0 8px}
+.about-team{margin:26px 0}
+.team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.member{background:#ffffff;border:1px solid var(--border);border-radius:12px;padding:16px}
+.member .name{font-weight:800}
+.member .role{color:var(--muted)}
+@media (max-width:980px){.team-grid{grid-template-columns:repeat(1,1fr)}}
+
+

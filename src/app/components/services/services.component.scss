@@ -1,0 +1,5 @@
+.services{margin-top:44px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{padding:22px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03);transition:transform .25s, box-shadow .25s, border-color .25s}
+.card:hover{transform:translateY(-8px);box-shadow:0 30px 60px rgba(2,6,23,0.6), 0 0 0 1px rgba(255,255,255,0.06) inset;border-color:rgba(255,255,255,0.06)}
+@media (max-width:980px){.cards{grid-template-columns:repeat(1,1fr)}}

@@ -1,0 +1,9 @@
+.contact-page{display:flex;flex-direction:column;align-items:center;text-align:center}
+.contact-form{max-width:720px;margin:18px 0;display:flex;flex-direction:column;gap:12px}
+.contact-form .row{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.contact-form label{display:flex;flex-direction:column;gap:8px}
+.contact-form input,.contact-form textarea{padding:12px 12px;border-radius:10px;border:1px solid var(--border);background:#ffffff;font:inherit;color:inherit}
+.contact-form input:focus,.contact-form textarea:focus{outline:2px solid var(--ring);outline-offset:2px}
+@media (max-width:980px){.contact-form .row{grid-template-columns:repeat(1,1fr)}}
+
+

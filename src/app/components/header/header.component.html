@@ -1,0 +1,35 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <a routerLink="/" (click)="closeMobile()" class="brand-link" style="display:flex;align-items:center;text-decoration:none;">
+        <img class="brand-logo" src="assets/logo.png" alt="Strike A Price logo" />
+        <div style="font-weight:800;margin-left:8px;">Strike<span style="color:var(--accent-2)">A</span>Price</div>
+      </a>
+    </div>
+
+    <nav class="nav">
+      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="closeMobile()">Home</a>
+      <div class="nav-group">
+        <a class="nav-link" routerLink="/services" routerLinkActive="active" (click)="closeMobile()">Services</a>
+        <div class="dropdown">
+          <a routerLink="/services/price-monitoring" (click)="closeMobile()">Price Monitoring</a>
+          <a routerLink="/services/web-scraping" (click)="closeMobile()">Web Scraping</a>
+          <a routerLink="/services/attribute-collection" (click)="closeMobile()">Attribute Collection</a>
+          <a routerLink="/services/data-feed" (click)="closeMobile()">Data Feed</a>
+        </div>
+      </div>
+      <a class="nav-link" routerLink="/pricing" routerLinkActive="active" (click)="closeMobile()">Pricing</a>
+      <a class="nav-link" routerLink="/about" routerLinkActive="active" (click)="closeMobile()">About</a>
+      <a class="nav-link" routerLink="/contact" routerLinkActive="active" (click)="closeMobile()">Contact</a>
+    </nav>
+
+    <div class="actions" role="navigation" aria-label="main actions">
+      <a class="btn btn-ghost" routerLink="/book-trial">Book Trial</a>
+      <a class="btn btn-primary" style="margin-left:12px" routerLink="/auth" (click)="closeMobile()">Get Started</a>
+    </div>
+
+    <div class="hamburger" (click)="onToggle()" aria-hidden="true">
+      <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+    </div>
+  </div>
+</header>

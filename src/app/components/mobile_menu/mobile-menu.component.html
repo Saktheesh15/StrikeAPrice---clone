@@ -1,0 +1,13 @@
+<div class="mobile-drawer" [class.open]="open">
+  <div class="drawer-inner">
+    <button class="close" (click)="close.emit()">✕</button>
+    <nav class="mobile-nav">
+      <a routerLink="/" (click)="close.emit()">Home</a>
+      <a routerLink="/services" (click)="close.emit()">Services</a>
+      <a routerLink="/pricing" (click)="close.emit()">Pricing</a>
+      <a routerLink="/about" (click)="close.emit()">About</a>
+      <a routerLink="/contact" (click)="close.emit()">Contact</a>
+      <a routerLink="/book-trial" (click)="close.emit()">Book Trial</a>
+    </nav>
+  </div>
+</div>

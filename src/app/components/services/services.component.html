@@ -1,0 +1,23 @@
+<section id="services" class="services fade-up">
+  <div class="container">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <div style="font-weight:800;font-size:20px">Services</div>
+    </div>
+    <div class="cards" style="margin-top:18px">
+      <div *ngFor="let c of cards" class="card">
+        <div style="font-size:28px;margin-bottom:10px">{{c.icon}}</div>
+        <h3>{{c.title}}</h3>
+        <p>{{c.desc}}</p>
+        <div style="margin-top:14px">
+          <a class="btn btn-ghost" [routerLink]="['/services']">See more</a>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:22px">
+      <div class="feature-pill">AI-driven price recommendations</div>
+      <div class="feature-pill">Real-time monitoring</div>
+      <div class="feature-pill">Seamless API integration</div>
+    </div>
+  </div>
+</section>

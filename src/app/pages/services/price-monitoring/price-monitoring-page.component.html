@@ -1,0 +1,83 @@
+<h1 style="margin:0 0 12px">Price Monitoring</h1>
+<nav class="tabs">
+  <a class="tab" [class.active]="activeTab==='google'" (click)="go('google')">Google</a>
+  <a class="tab" [class.active]="activeTab==='amazon'" (click)="go('amazon')">Amazon</a>
+  <a class="tab" [class.active]="activeTab==='competitor'" (click)="go('competitor')">Competitor</a>
+</nav>
+
+<section class="pm-section" #googleSection>
+  <h2>Google Shopping - Competitors' Price Monitoring</h2>
+  <p>
+    Like you most of the sellers list the same product in Google Shopping. In this sitution Competative Price can only help you to sell your product. You need to know exactly what other sellers tag for the same product. You have more that 100 sellers. How do you get the price tag that work? Strikeaprice.com fills this gap. The challenges of collecting the price of all your competitors will be handled by our smart applications.
+  </p>
+  <div class="pm-cta-row">
+    <a class="btn btn-ghost" href="https://shopping.google.com/" target="_blank" rel="noopener noreferrer">Google Shopping Page</a>
+  </div>
+  <h4>Google Report</h4>
+  <p>
+    You get a nice report, which shows the current position of your product when sorted with price. We also provide the Lowest price, Average Price and any other specific information needed by the client. This data is more than enough for you to calculate and come up with a new working price tag. Tada "Product SOLD!".
+  </p>
+  <h4>Any Time Report</h4>
+  <p>
+    We provide this service 365 days, All weekdays, Weekly once, 'N' times daily and more customized intervals that works for you.
+  </p>
+  <div class="pm-cta-row">
+    <a class="btn btn-primary" routerLink="/book-trial">Request A Trial</a>
+  </div>
+</section>
+
+<section class="pm-section" #amazonSection>
+  <h2>Amazon Shopping - Competitors' Price Monitoring</h2>
+  <p>
+    Yes! Amazon Shopping being good compare shop online market, may sellers like you list theis products in it. Only Competative Price can help you sell your product here. Knowing the exact price what other sellers tag for the same product should help you in this. You have a lot of sellers here. How do you get the price tag that work?
+    Strikeaprice.com fills the gap here. The challenges of collecting the price of all your competitors will be handled by our smart applications.
+  </p>
+  <div class="pm-cta-row">
+    <a class="btn btn-ghost" href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer">Amazon</a>
+  </div>
+  <h4>Amazon Report</h4>
+  <p>
+    You get a nice report, which shows the current position of your product when sorted with price. We also provide the Lowest price, Average Price and any other specific information needed by the client. This data is more than enough for you to calculate and come up with a new working price tag. Tada "Product SOLD!".
+  </p>
+  <h4>Any Time Report</h4>
+  <p>
+    We provide this service 365 days, All weekdays, Weekly once, 'N' times daily and more customized intervals that works for you.
+  </p>
+  <div class="pm-cta-row">
+    <a class="btn btn-primary" routerLink="/book-trial">Request A Trial</a>
+  </div>
+</section>
+
+<section class="pm-section" #competitorSection>
+  <h2>Specific Competitors' Price Monitoring</h2>
+  <p>
+    That's COOL. You have targeted competitors, so you more know about how we can help you. No matter what, we will get the prices and other data that you need.
+  </p>
+  <p>That's it! Let's get to work. Don't miss the Free Trial.</p>
+  <div class="pm-cta-row">
+    <a class="btn btn-primary" routerLink="/book-trial">Request A Trial</a>
+  </div>
+</section>
+
+<section class="pm-related">
+  <h3>Related Services</h3>
+  <div class="cards">
+    <div class="card">
+      <h4>Web Scraping Services</h4>
+      <p>Comprehensive data extraction</p>
+      <a class="btn btn-ghost" routerLink="/services/web-scraping">Learn More →</a>
+    </div>
+    <div class="card">
+      <h4>Attribute Collection</h4>
+      <p>Product data collection</p>
+      <a class="btn btn-ghost" routerLink="/services/attribute-collection">Learn More →</a>
+    </div>
+    <div class="card">
+      <h4>Pricing Plans</h4>
+      <p>Flexible pricing options</p>
+      <a class="btn btn-ghost" routerLink="/pricing">Learn More →</a>
+    </div>
+  </div>
+</section>
+
+
