@@ -39,3 +39,19 @@ src/
  ├── assets/
  ├── index.html
  └── styles.scss
+```
+## ⚙️ Installation & Setup
+### 1. Clone the repo
+```
+https://github.com/Saktheesh15/StrikeAPrice---clone.git
+cd StrikeAPrice---clone
+```
+### 2. Install dependencies
+```
+npm install
+```
+### 3. Run locally
+```
+ng serve -o or npm start
+```
+### The app will open at: http://localhost:4200
